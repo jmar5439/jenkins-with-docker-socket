@@ -1,6 +1,6 @@
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:lts
 
-MAINTAINER Jared De La Cruz <jared@jareddlc.com>
+MAINTAINER Jordi Marti <info@jordimarti.tech>
 
 ARG USER_JENKINS=jenkins
 ARG USER_ROOT=root
